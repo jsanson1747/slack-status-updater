@@ -27,25 +27,17 @@ export default async (req, res) => {
       text: 'Elsewhere'
     },
     {
-      icon: 'house',
+      icon: 'house_with_garden',
       text: 'Home'
     },
     {
       icon: 'eg',
-      text: 'Work'
-    },
-    {
-      icon: 'church',
-      text: 'Church'
+      text: 'EG'
     },
     {
       icon: 'coffee',
       text: 'Coffee shop'
     },
-    {
-      icon: 'school',
-      text: 'School'
-    }
   ];
 
   const slack_user_bearer_token = process.env.SLACK_USER_BEARER_TOKEN;
