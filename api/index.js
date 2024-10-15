@@ -28,7 +28,7 @@ export default async (req, res) => {
     },
     {
       icon: 'house_with_garden',
-      text: 'Home'
+      text: 'Working Remotely'
     },
     {
       icon: 'eg',
