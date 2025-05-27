@@ -38,6 +38,10 @@ export default async (req, res) => {
       icon: 'coffee',
       text: 'Coffee shop'
     },
+    {
+      icon: 'office',
+      text: 'SEP'
+    }
   ];
 
   const slack_user_bearer_token = process.env.SLACK_USER_BEARER_TOKEN;
